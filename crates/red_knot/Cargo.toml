@@ -36,6 +36,7 @@ smol_str = "0.2.1"
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
 tracing-tree = { workspace = true }
+salsa = { git = "https://github.com/salsa-rs/salsa.git", package = "salsa-2022", rev = "f5aec4abefb4c5e67cba6d8ea91c216bc2838f10" }
 
 [dev-dependencies]
 textwrap = "0.16.1"
