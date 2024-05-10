@@ -21,6 +21,7 @@ ruff_notebook = { path = "../ruff_notebook" }
 
 anyhow = { workspace = true }
 bitflags = { workspace = true }
+countme = { workspace = true, features = ["enable"] }
 ctrlc = "3.4.4"
 crossbeam = { workspace = true }
 dashmap = { workspace = true }
@@ -34,13 +35,16 @@ rustc-hash = { workspace = true }
 smallvec = { workspace = true }
 smol_str = "0.2.1"
 tracing = { workspace = true }
+tracing-log = "0.2.0"
 tracing-subscriber = { workspace = true }
 tracing-tree = { workspace = true }
-salsa = { git = "https://github.com/salsa-rs/salsa.git", package = "salsa-2022", rev = "f5aec4abefb4c5e67cba6d8ea91c216bc2838f10" }
+salsa = { git = "https://github.com/salsa-rs/salsa.git", package = "salsa-2022", rev = "05b4e3ebdcdc47730cdd359e7e97fb2470527279" }
+filetime = { workspace = true }
 
 [dev-dependencies]
 textwrap = "0.16.1"
 tempfile = { workspace = true }
+
 
 [lints]
 workspace = true
